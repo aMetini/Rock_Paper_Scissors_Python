@@ -46,4 +46,5 @@ while True:
             break
         else:
             print('Thank you for playing.')
+            exit()
      
