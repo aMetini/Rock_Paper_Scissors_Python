@@ -9,7 +9,7 @@ while True:
         Rock wins over scissors
         Scissors wins over paper
         Paper wins over rock
-        If both the computer and the player choose the same option, the result is a tie.")
+        If both the computer and the player choose the same option, the result is a tie.)
     """)
 
     while True:
@@ -42,6 +42,8 @@ while True:
     while True:
         play_again = input("\nWould you like to play again? Y/N: ").upper()
 
-        if play_again == 'N':
+        if play_again == 'Y':
             break
+        else:
+            print('Thank you for playing.')
      
